@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="title desc">
+  <title id="title">Felipe Marquesini</title>
+  <desc id="desc">Building what doesn't exist yet. Founder of Vemryx, Brazil. A flight plan runs from IDEA through BUILD, the active waypoint, to SHIP.</desc>
+  <style>
+    .name { font: 600 58px "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; fill: #1f2328; letter-spacing: -1px; }
+    .tag  { font: 400 26px "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; fill: #59636e; }
+    .mono { font: 500 14px ui-monospace, SFMono-Regular, "Cascadia Mono", Consolas, Menlo, monospace; letter-spacing: 3px; }
+    .meta { fill: #59636e; }
+    .wpt  { fill: #0a7d8c; }
+    .act  { fill: #1a7f37; }
+    .done { fill: #59636e; }
+  </style>
+
+  <text class="name" x="48" y="132">Felipe Marquesini</text>
+  <text class="tag" x="50" y="178">Building what doesn&#8217;t exist yet.</text>
+  <text class="mono meta" x="50" y="232">FOUNDER · VEMRYX  —  BRAZIL</text>
+
+  <!-- range ring around the origin, like a navigation display -->
+  <path d="M 890 236 A 200 200 0 0 0 690 36" fill="none" stroke="#d1d9e0" stroke-width="1" stroke-dasharray="2 6"/>
+  <path d="M 790 236 A 100 100 0 0 0 690 136" fill="none" stroke="#d1d9e0" stroke-width="1" stroke-dasharray="2 6"/>
+
+  <!-- flown leg -->
+  <path d="M690,236 C755,178 822.5,141.5 893.75,122.25" fill="none" stroke="#1a7f37" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- planned leg -->
+  <path d="M893.75,122.25 C965,103 1040,101 1120,112" fill="none" stroke="#0a7d8c" stroke-width="2" stroke-dasharray="7 7" stroke-linecap="round"/>
+
+  <!-- IDEA -->
+  <rect x="685" y="231" width="10" height="10" transform="rotate(45 690 236)" fill="#ffffff" stroke="#59636e" stroke-width="2"/>
+  <text class="mono done" x="690" y="270" text-anchor="middle">IDEA</text>
+
+  <!-- BUILD, active waypoint -->
+  <circle cx="893.75" cy="122.25" r="15" fill="none" stroke="#1a7f37" stroke-opacity="0.35" stroke-width="1.5"/>
+  <rect x="888.75" y="117.25" width="10" height="10" transform="rotate(45 893.75 122.25)" fill="#1a7f37"/>
+  <text class="mono act" x="893.75" y="90" text-anchor="middle">BUILD</text>
+
+  <!-- SHIP -->
+  <rect x="1115" y="107" width="10" height="10" transform="rotate(45 1120 112)" fill="#ffffff" stroke="#0a7d8c" stroke-width="2"/>
+  <text class="mono wpt" x="1120" y="80" text-anchor="middle">SHIP</text>
+</svg>
