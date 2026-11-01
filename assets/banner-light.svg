@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="title desc">
-  <title id="title">Felipe Marquesini</title>
+  <title id="title">Felipe Marquezini</title>
   <desc id="desc">Building what doesn't exist yet. Founder of Vemryx, Brazil. A flight plan runs from IDEA through BUILD, the active waypoint, to SHIP.</desc>
   <style>
     .name { font: 600 58px "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; fill: #1f2328; letter-spacing: -1px; }
@@ -11,7 +11,7 @@
     .done { fill: #59636e; }
   </style>
 
-  <text class="name" x="48" y="132">Felipe Marquesini</text>
+  <text class="name" x="48" y="132">Felipe Marquezini</text>
   <text class="tag" x="50" y="178">Building what doesn&#8217;t exist yet.</text>
   <text class="mono meta" x="50" y="232">FOUNDER · VEMRYX  —  BRAZIL</text>
 

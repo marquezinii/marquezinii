@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="Felipe Marquesini. Building what doesn't exist yet. Founder of Vemryx, Brazil." src="assets/banner-light.svg" width="100%">
+  <img alt="Felipe Marquezini. Building what doesn't exist yet. Founder of Vemryx, Brazil." src="assets/banner-light.svg" width="100%">
 </picture>
 
 I run [Vemryx](https://vemryx.com), a Brazilian software company that designs, ships and maintains its own products: Windows tools, AI-assisted systems and flight simulation software.
